@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 15%;
 
-    --primary: 0 60% 35%;
+    --primary: 211 19% 49%;
     --primary-foreground: 40 20% 97%;
 
     --secondary: 40 15% 90%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 40 15% 92%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 0 60% 35%;
+    --accent: 211 19% 49%;
     --accent-foreground: 40 20% 97%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,7 +34,7 @@ All colors MUST be HSL.
 
     --border: 40 20% 88%;
     --input: 40 20% 88%;
-    --ring: 0 60% 35%;
+    --ring: 211 19% 49%;
 
     --radius: 0.25rem;
 
@@ -58,7 +58,7 @@ All colors MUST be HSL.
     --popover: 0 0% 12%;
     --popover-foreground: 40 20% 95%;
 
-    --primary: 0 60% 50%;
+    --primary: 211 19% 55%;
     --primary-foreground: 40 20% 97%;
 
     --secondary: 0 0% 18%;
@@ -67,7 +67,7 @@ All colors MUST be HSL.
     --muted: 0 0% 18%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 0 60% 50%;
+    --accent: 211 19% 55%;
     --accent-foreground: 40 20% 97%;
 
     --destructive: 0 62.8% 30.6%;
@@ -75,7 +75,7 @@ All colors MUST be HSL.
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 0 60% 50%;
+    --ring: 211 19% 55%;
     
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
@@ -95,12 +95,12 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Cardo', 'Georgia', 'Times New Roman', serif;
     line-height: 1.75;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: 'Cardo', 'Georgia', 'Times New Roman', serif;
     font-weight: 400;
     line-height: 1.3;
   }
