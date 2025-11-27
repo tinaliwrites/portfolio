@@ -374,7 +374,7 @@ const Writing = () => {
         </div>
 
         <FadeInSection>
-          <div className="mt-32 text-center border-t border-primary/10 pt-16">
+          <div className="mt-32 text-center">
             <h3 className="text-2xl font-serif italic text-foreground mb-12">
               My work has appeared in:
             </h3>
