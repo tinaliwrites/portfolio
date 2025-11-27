@@ -31,8 +31,8 @@ To run this project locally:
 
 1.  **Clone the repository**
     ```sh
-    git clone https://github.com/tinaliwrites/portfolio-builder.git
-    cd portfolio-builder
+    git clone https://github.com/tinaliwrites/portfolio.git
+    cd portfolio
     ```
 
 2.  **Install dependencies**
