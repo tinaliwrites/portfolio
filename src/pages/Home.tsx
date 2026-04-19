@@ -18,7 +18,7 @@ const Home = () => {
               Hello! I’m Tina. I'm a writer, journalist, and poet. At Yale, I study English literature.
             </p>
             <p>
-              I currently serve as managing editor of <em>The New Journal</em>, a narrative longform magazine about Yale and New Haven. Last summer, I interned at <em>The Sacramento Bee</em>, where I wrote about transportation and business. I’ve covered town-gown relations for the <em>Yale Daily News</em> and contributed work to <em>The Yale Herald</em> and <em>The Frisc</em>.
+              This summer I'll be reporting on technology for The Wall Street Journal's SF bureau. I previously served as managing editor of <em>The New Journal</em>, a narrative longform magazine about Yale and New Haven. Last summer, I interned at <em>The Sacramento Bee</em>, where I wrote about transportation and business. I’ve covered town-gown relations for the <em>Yale Daily News</em> and contributed work to <em>The Yale Herald</em> and <em>The Frisc</em>.
             </p>
             <p>
               My reporting interests span business, technology, transportation, and politics. I write stories that contextualize company deals and infrastructure sagas; draw out the culture of an industry, city, or community; and tell the human experiences impacted by abstract policy. I love journalism because it lets me dive into unfamiliar subjects, talk to experts and everyday people alike, and bring what I learn back to readers.
