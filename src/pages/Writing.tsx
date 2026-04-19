@@ -291,6 +291,22 @@ const Writing = () => {
       <Header />
       <main className="container mx-auto max-w-6xl px-6 py-16 font-serif">
 
+        <FadeInSection>
+          <div className="mb-16 p-6 bg-muted/30 rounded-lg text-center border border-primary/10">
+            <p className="text-xl md:text-2xl font-serif text-foreground">
+              Read my most recent article, a{" "}
+              <a
+                href="https://www.newhavenindependent.org/2026/02/02/the-most-important-tool-the-most-dangerous-tool-how-nhps-is-adapting-to-ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground hover:text-primary decoration-primary/50 underline underline-offset-4 transition-colors font-medium"
+              >
+                feature
+              </a>{" "}
+              on how New Haven public schools are grappling with AI!
+            </p>
+          </div>
+        </FadeInSection>
 
         <div className="space-y-24">
           {beats.map((beat, beatIndex) => (
