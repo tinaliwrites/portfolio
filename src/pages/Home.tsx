@@ -10,11 +10,6 @@ const Home = () => {
         <FadeInSection>
           <div className="space-y-6 text-xl leading-relaxed text-foreground/90">
             <p>
-              <img
-                src="/portfolio/tina-headshot.png"
-                alt="Tina Li"
-                className="float-right w-64 h-64 ml-6 mb-2 object-cover border-2 border-primary/40 rounded-[255px_15px_225px_15px/15px_225px_15px_255px]"
-              />
               Hi! I’m a writer, journalist, and poet. This summer I’m reporting on technology for <em>The Wall Street Journal</em> in San Francisco. I previously served as managing editor of <em>The New Journal</em>. I’ve reported for <em>The Sacramento Bee</em> and the <em>Yale Daily News</em> and freelanced elsewhere. At Yale, I study English literature.
             </p>
             <p>
