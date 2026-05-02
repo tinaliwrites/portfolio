@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className="min-h-screen bg-background">
       <Header />
-      <main className="container mx-auto max-w-3xl px-6 py-16 font-serif flex-1 flex flex-col justify-center">
-          <div className="space-y-6 text-xl leading-relaxed text-foreground/90 text-center">
+      <main className="container mx-auto max-w-3xl px-6 py-16 font-serif">
+          <div className="space-y-6 text-xl leading-relaxed text-foreground/90">
             <p>
               Hi! I’m a writer, journalist, and poet. This summer I’m reporting on technology for <em>The Wall Street Journal</em> in San Francisco. I previously served as managing editor of <em>The New Journal</em>, reported for <em>The Sacramento Bee</em> and the <em>Yale Daily News</em>, and freelanced elsewhere. At Yale, I study English literature.
             </p>
