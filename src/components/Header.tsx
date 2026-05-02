@@ -46,12 +46,7 @@ const Header = () => {
             Writing
           </Link>
 
-          <Link
-            to="/resume"
-            className={`text-primary hover:underline decoration-primary ${location.pathname === "/resume" ? "underline" : "no-underline"}`}
-          >
-            Resume
-          </Link>
+
 
 
         </nav>

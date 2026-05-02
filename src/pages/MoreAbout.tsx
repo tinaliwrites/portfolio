@@ -50,31 +50,7 @@ const MoreAbout = () => {
                         </ul>
                     </FadeInSection>
 
-                    <FadeInSection>
-                        <p className="mb-1 font-medium">And some short stories and essays:</p>
-                        <ul className="space-y-0">
-                            <li className="flex gap-3">
-                                <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                <span>Ted Chiang, “Story of Your Life”</span>
-                            </li>
-                            <li className="flex gap-3">
-                                <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                <span>Daniel Keyes, “Flowers for Algernon”</span>
-                            </li>
-                            <li className="flex gap-3">
-                                <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                <span>Virginia Woolf, “Street Haunting”</span>
-                            </li>
-                            <li className="flex gap-3">
-                                <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                <span>E.B. White, “Once More to the Lake”</span>
-                            </li>
-                            <li className="flex gap-3">
-                                <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                <span>Zadie Smith, <a href="https://www.newyorker.com/magazine/2025/09/29/the-art-of-the-impersonal-essay" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">“The Art of the Impersonal Essay”</a></span>
-                            </li>
-                        </ul>
-                    </FadeInSection>
+
 
                     <FadeInSection>
                         <p className="mb-1 font-medium">I am happily haunted by poetry. My favorites are usually about love, anxiety, and agency:</p>
@@ -97,11 +73,7 @@ const MoreAbout = () => {
                             </li>
                             <li className="flex gap-3">
                                 <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                <span>Agha Shahid Ali, <a href="https://www.poetryfoundation.org/poems/51652/tonight-56d22f898fcd7" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">Tonight</a></span>
-                            </li>
-                            <li className="flex gap-3">
-                                <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                <span>Elizabeth Bishop, <a href="https://www.poetryfoundation.org/poems/48287/crusoe-in-england" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">Crusoe in England</a></span>
+                                <span>Robert Hass, <a href="https://www.poetryfoundation.org/poems/47553/meditation-at-lagunitas" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">Meditations at Lagunitas</a></span>
                             </li>
                             <li className="flex gap-3">
                                 <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
@@ -114,6 +86,14 @@ const MoreAbout = () => {
                             <li className="flex gap-3">
                                 <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
                                 <span>Rainer Maria Rilke, <a href="http://www.paularcher.net/translations/rainer_maria_rilke/die_spanische_trilogie.html" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">The Spanish Trilogy</a></span>
+                            </li>
+                            <li className="flex gap-3">
+                                <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
+                                <span>Linda Gregg, <a href="https://poets.org/poem/we-manage-most-when-we-manage-small" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">We Manage Most When We Manage Small</a></span>
+                            </li>
+                            <li className="flex gap-3">
+                                <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
+                                <span>Arthur Sze, <a href="https://www.newyorker.com/magazine/2025/07/28/rift-arthur-sze-poem" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">Rift</a></span>
                             </li>
                         </ul>
                     </FadeInSection>
@@ -131,7 +111,7 @@ const MoreAbout = () => {
 
                     <FadeInSection>
                         <p>
-                            My favorite films are <em>Phantom Thread</em> (Paul Thomas Anderson, 2017) and <em>Chungking Express</em> (Wong Kar-Wai, 1994). My favorite Jane Austen adaptations are <em>Persuasion</em> (1995) and BBC’s <em>Pride and Prejudice</em> miniseries (1995). Lots of great things were happening in 1995! I enjoy writing with Chopin’s Preludes, Legend of Zelda soundtracks, or instrumental jazz in the background. I love The Cure and The Smiths.
+                            My favorite films are <em>Phantom Thread</em> (Paul Thomas Anderson, 2017), <em>King Lear</em> (Jean-Luc Godard, 1988), and <em>Chungking Express</em> (Wong Kar-Wai, 1994). My favorite Jane Austen adaptations are <em>Persuasion</em> (1995) and BBC’s <em>Pride and Prejudice</em> miniseries (1995). Lots of great things were happening in 1995! I enjoy writing with Chopin’s Preludes, Legend of Zelda soundtracks, or instrumental jazz in the background. I love The Cure and The Smiths.
                         </p>
                     </FadeInSection>
 
@@ -146,10 +126,7 @@ const MoreAbout = () => {
                                 <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
                                 <span>If it feels hard to do something, <a href="https://jasmi.news/p/anson-hudzah" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">ask for help</a></span>
                             </li>
-                            <li className="flex gap-3">
-                                <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                <span>Making art, dancing, and singing are all human activities before they are skills</span>
-                            </li>
+
                             <li className="flex gap-3">
                                 <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
                                 <span>Send that cold email</span>
