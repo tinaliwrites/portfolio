@@ -32,7 +32,7 @@ const Header = () => {
         <h1 className="text-center text-4xl font-bold mb-6 text-foreground">
           Tina Li
         </h1>
-        <nav className="flex justify-center gap-8 text-base">
+        <nav className="flex justify-center gap-8 text-lg">
           <Link
             to="/about"
             className={`text-primary hover:underline decoration-primary ${location.pathname === "/" || location.pathname === "/about" ? "underline" : "no-underline"}`}
