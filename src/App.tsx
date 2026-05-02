@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Writing from "./pages/Writing";
 import MoreAbout from "./pages/MoreAbout";
 import ResumePage from "./pages/ResumePage";
+import Poetry from "./pages/Poetry";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/writing" element={<Writing />} />
           <Route path="/more-about" element={<MoreAbout />} />
           <Route path="/resume" element={<ResumePage />} />
+          <Route path="/poetry" element={<Poetry />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<Navigate to="/about" replace />} />
         </Routes>
