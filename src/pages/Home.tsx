@@ -13,10 +13,7 @@ const Home = () => {
               Hi! I’m a writer, journalist, and poet. This summer I’m reporting on technology for <em>The Wall Street Journal</em> in San Francisco. I previously served as managing editor of <em>The New Journal</em>. I’ve reported for <em>The Sacramento Bee</em> and the <em>Yale Daily News</em> and freelanced elsewhere. At Yale, I study English literature.
             </p>
             <p>
-              While you’re here, you can read my clips and <Link to="/more-about" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">learn even more about me.</Link>
-            </p>
-            <p>
-              You can email me at <a href="mailto:tina.jh.li@yale.edu" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">tina.jh.li@yale.edu</a>, and follow my <a href="https://www.linkedin.com/in/tinaliyale/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">LinkedIn</a> and <a href="https://x.com/its_tinali" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">X</a>.
+              You can email me at <a href="mailto:tina.jh.li@yale.edu" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">tina.jh.li@yale.edu</a>, and follow my <a href="https://www.linkedin.com/in/tinaliyale/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">LinkedIn</a> and <a href="https://x.com/its_tinali" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">X</a>. While you’re here, you can read my clips and learn even more <Link to="/more-about" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">about me.</Link>
             </p>
           </div>
         </FadeInSection>

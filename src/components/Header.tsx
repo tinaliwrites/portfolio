@@ -37,13 +37,13 @@ const Header = () => {
             to="/about"
             className={`text-primary hover:underline decoration-primary ${location.pathname === "/" || location.pathname === "/about" ? "underline" : "no-underline"}`}
           >
-            About
+            about
           </Link>
           <Link
             to="/writing"
             className={`text-primary hover:underline decoration-primary ${location.pathname === "/writing" ? "underline" : "no-underline"}`}
           >
-            Writing
+            writing
           </Link>
 
 

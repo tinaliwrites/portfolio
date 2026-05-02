@@ -392,74 +392,7 @@ const Writing = () => {
           ))}
         </div>
 
-        <FadeInSection>
-          <div className="mt-32 text-center">
-            <h3 className="text-2xl font-serif italic text-foreground mb-12">
-              My work has appeared in:
-            </h3>
-            <div className="flex flex-wrap justify-center gap-8 md:gap-12 font-serif">
-              <a
-                href="https://www.sacbee.com/profile/307677236"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative px-8 py-4 no-underline"
-              >
-                <span className="absolute inset-0 border-2 border-primary/40 rounded-[255px_15px_225px_15px/15px_225px_15px_255px] group-hover:border-primary transition-colors duration-300"></span>
-                <span className="relative block text-lg font-medium text-foreground group-hover:scale-110 transition-transform duration-300">
-                  The Sacramento Bee
-                </span>
-              </a>
 
-              <a
-                href="https://thenewjournalatyale.com/author/tina-li/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative px-8 py-4 no-underline"
-              >
-                <span className="absolute inset-0 border-2 border-primary/40 rounded-[15px_225px_15px_255px/255px_15px_225px_15px] group-hover:border-primary transition-colors duration-300"></span>
-                <span className="relative block text-lg font-medium text-foreground group-hover:scale-110 transition-transform duration-300">
-                  The New Journal
-                </span>
-              </a>
-
-              <a
-                href="https://yaledailynews.com/blog/author/tinali/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative px-8 py-4 no-underline"
-              >
-                <span className="absolute inset-0 border-2 border-primary/40 rounded-[225px_15px_225px_15px/15px_225px_15px_255px] group-hover:border-primary transition-colors duration-300"></span>
-                <span className="relative block text-lg font-medium text-foreground group-hover:scale-110 transition-transform duration-300">
-                  Yale Daily News
-                </span>
-              </a>
-
-              <a
-                href="https://yale-herald.com/2024/11/17/restaurant-days/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative px-8 py-4 no-underline"
-              >
-                <span className="absolute inset-0 border-2 border-primary/40 rounded-[235px_25px_235px_25px/25px_235px_25px_235px] group-hover:border-primary transition-colors duration-300"></span>
-                <span className="relative block text-lg font-medium text-foreground group-hover:scale-110 transition-transform duration-300">
-                  The Yale Herald
-                </span>
-              </a>
-
-              <a
-                href="https://thefrisc.com/author/tina-li/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative px-8 py-4 no-underline"
-              >
-                <span className="absolute inset-0 border-2 border-primary/40 rounded-[25px_235px_25px_235px/235px_25px_235px_25px] group-hover:border-primary transition-colors duration-300"></span>
-                <span className="relative block text-lg font-medium text-foreground group-hover:scale-110 transition-transform duration-300">
-                  The Frisc
-                </span>
-              </a>
-            </div>
-          </div>
-        </FadeInSection>
 
 
       </main>
