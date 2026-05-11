@@ -74,7 +74,7 @@ const MoreAbout = () => {
                                 </li>
                                 <li className="flex gap-3">
                                     <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
-                                    <span>Robert Hass, <a href="https://www.poetryfoundation.org/poems/47553/meditation-at-lagunitas" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">Meditations at Lagunitas</a></span>
+                                    <span>Robert Hass, <a href="https://www.poetryfoundation.org/poems/47553/meditation-at-lagunitas" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">Meditation at Lagunitas</a></span>
                                 </li>
                                 <li className="flex gap-3">
                                     <span className="text-primary/60 text-xs mt-[6px] shrink-0">○</span>
