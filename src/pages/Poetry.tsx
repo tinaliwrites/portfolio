@@ -18,7 +18,7 @@ const Poetry = () => {
               "Impressions (at the Equinox)" <a href="https://thenewjournalatyale.com/2026/02/impressions-at-the-equinox/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">The New Journal</a>, February 2026.
             </p>
             <p className="text-muted-foreground">
-              more forthcoming... or <a href="mailto:tina.jh.li@yale.edu" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">email me!</a>
+              more forthcoming... or <a href="mailto:tina.jh.li@yale.edu" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">email me!</a> I'm always happy to chat poetry
             </p>
           </div>
         </div>
