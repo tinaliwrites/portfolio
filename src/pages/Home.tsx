@@ -14,7 +14,7 @@ const Home = () => {
               This summer I’m reporting on technology for <em>The Wall Street Journal</em> in San Francisco. I'm grateful to be supported by the Dow Jones News Fund business reporting fellowship.
             </p>
             <p>
-              I previously served as managing editor of <em>The New Journal</em>, reported for <em>The Sacramento Bee</em> and the <em>Yale Daily News</em>, and freelanced for <em>The New Haven Independent</em> and <em>The Frisc</em>. You can find my clips <Link to="/writing" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">here</Link>!
+              I previously served as managing editor of <em>The New Journal</em>, reported for <em>The Sacramento Bee</em> and the <em>Yale Daily News</em>, and freelanced for <em>The New Haven Independent</em> and <em>The Frisc</em>. You can read my clips <Link to="/writing" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">here</Link>!
             </p>
             <p>
               In my fourth year in college, I'll be a Yale Journalism Initiative coordinating fellow; literary editor at the <em>Yale Literary Magazine</em> and verse editor for <em>The New Journal</em>; and managing editor for the <em>Elm City Echo</em>. I study English literature and will write a poetry thesis.
