@@ -291,27 +291,51 @@ const Writing = () => {
       <Header />
       <main className="container mx-auto max-w-6xl px-6 py-16 font-serif">
 
-        <FadeInSection>
-          <div className="group relative mb-16 p-6 bg-muted/30 text-center">
-            {/* Hand-drawn border effect */}
-            <div className="absolute inset-0 border-2 border-primary/40 rounded-[255px_15px_225px_15px/15px_225px_15px_255px] pointer-events-none group-hover:border-primary transition-colors duration-300"></div>
-            
-            <p className="relative z-10 text-xl md:text-2xl font-serif text-foreground">
-              Read my most recent article, a{" "}
-              <a
-                href="https://www.newhavenindependent.org/2026/02/02/the-most-important-tool-the-most-dangerous-tool-how-nhps-is-adapting-to-ai/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground hover:text-primary decoration-primary/50 underline underline-offset-4 transition-colors font-medium"
-              >
-                feature
-              </a>{" "}
-              on how New Haven public schools are grappling with AI!
-            </p>
-          </div>
-        </FadeInSection>
-
         <div className="space-y-24">
+          <FadeInSection>
+            <section>
+              <div className="relative inline-block mb-8">
+                <h3 className="text-5xl font-serif italic relative z-10">
+                  Tech
+                </h3>
+                <svg className="absolute w-[110%] h-8 -bottom-2 -left-[5%] text-primary/30 -z-10" viewBox="0 0 100 20" preserveAspectRatio="none">
+                  <path d="M0 10 Q 50 20 100 10" stroke="currentColor" strokeWidth="12" fill="none" />
+                </svg>
+              </div>
+
+              <div className="space-y-6">
+                <p className="text-xl leading-relaxed text-foreground/90">
+                  I'm currently reporting for <em>The Wall Street Journal</em> and you can keep up with my clips{" "}
+                  <a
+                    href="https://www.wsj.com/news/author/tina-li"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4"
+                  >
+                    here
+                  </a>.
+                </p>
+
+                <div className="group relative p-6 bg-muted/30 text-center">
+                  {/* Hand-drawn border effect */}
+                  <div className="absolute inset-0 border-2 border-primary/40 rounded-[255px_15px_225px_15px/15px_225px_15px_255px] pointer-events-none group-hover:border-primary transition-colors duration-300"></div>
+                  
+                  <p className="relative z-10 text-xl md:text-2xl font-serif text-foreground">
+                    Read{" "}
+                    <a
+                      href="https://www.newhavenindependent.org/2026/02/02/the-most-important-tool-the-most-dangerous-tool-how-nhps-is-adapting-to-ai/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-foreground hover:text-primary decoration-primary/50 underline underline-offset-4 transition-colors font-medium"
+                    >
+                      my feature
+                    </a>{" "}
+                    on how New Haven public schools are grappling with AI!
+                  </p>
+                </div>
+              </div>
+            </section>
+          </FadeInSection>
           {beats.map((beat, beatIndex) => (
             <FadeInSection key={beat.title}>
               <section>
