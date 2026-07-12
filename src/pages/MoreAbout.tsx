@@ -102,7 +102,7 @@ const MoreAbout = () => {
 
                     <FadeInSection>
                         <img
-                            src="/portfolio/library-landscape-cropped.jpg"
+                            src="/library-landscape-cropped.jpg"
                             alt="Library landscape"
                             className="w-full h-auto object-cover border-2 border-primary/40 rounded-[255px_15px_225px_15px/15px_225px_15px_255px]"
                         />
