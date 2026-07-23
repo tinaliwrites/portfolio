@@ -9,7 +9,7 @@ const Header = () => {
     const updateTime = () => {
       const now = new Date();
       const timeString = now.toLocaleTimeString("en-US", {
-        timeZone: "America/New_York",
+        timeZone: "America/Los_Angeles",
         hour: "numeric",
         minute: "2-digit",
         hour12: true,
@@ -25,8 +25,8 @@ const Header = () => {
   return (
     <header className="bg-background relative">
       <div className="absolute top-4 right-6 text-xs font-serif text-muted-foreground text-right hidden md:block">
-        <div>New Haven, CT</div>
-        <div>{time} EST</div>
+        <div>San Francisco, CA</div>
+        <div>{time} PST</div>
       </div>
       <div className="container mx-auto max-w-4xl px-6 py-8">
         <h1 className="text-center text-4xl font-bold mb-6 text-foreground">
