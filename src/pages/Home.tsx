@@ -17,7 +17,7 @@ const Home = () => {
               I previously served as managing editor of <em>The New Journal</em>, reported for <em>The Sacramento Bee</em> and the <em>Yale Daily News</em>, and freelanced elsewhere.
             </p>
             <p>
-              This fall, I'll be a senior at Yale. I study English literature and will write a poetry thesis. I also plan to freelance when I'm not editing for the <em>Yale Literary Magazine</em>, <em>Elm City Echo</em>, and <em>TNJ</em>.
+              This fall, I'll be a senior at Yale. I study English literature and will write a poetry thesis. I also plan to freelance and write on <a href="https://tinalignment.substack.com/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">Substack</a> when I'm not editing for the <em>Yale Literary Magazine</em>, <em>Elm City Echo</em>, and <em>TNJ</em>.
             </p>
             <p>
               Please reach out at tina.jh.li [at] yale [dot] edu or on Signal at tina.415. You can also follow my <a href="https://www.linkedin.com/in/tinaliyale/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">LinkedIn</a> and <a href="https://x.com/tinalignment" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">X</a>, and while you’re here, learn even more <Link to="/more-about" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">about me.</Link>
