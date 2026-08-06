@@ -8,7 +8,7 @@ const Home = () => {
       <main className="container mx-auto max-w-3xl px-6 py-16 font-serif">
           <div className="space-y-6 text-xl leading-relaxed text-foreground/90">
             <p>
-              Hi! I’m a writer, journalist, and poet.
+              Hi! I'm a writer interested in technology, policy, and culture.
             </p>
             <p>
               I'm currently in San Francisco reporting for <em>The Wall Street Journal</em>. You can keep up with my work <a href="https://www.wsj.com/news/author/tina-li" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">here</a>.
@@ -17,7 +17,7 @@ const Home = () => {
               I previously served as managing editor of <em>The New Journal</em>, reported for <em>The Sacramento Bee</em> and the <em>Yale Daily News</em>, and freelanced elsewhere.
             </p>
             <p>
-              This fall, I'll be a senior at Yale. I study English literature and will write a poetry thesis. I also plan to freelance and <a href="https://tinalignment.substack.com/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">substack</a> when I'm not editing for the <em>Yale Literary Magazine</em>, <em>Elm City Echo</em>, and <em>TNJ</em>.
+              This fall, I'll be a senior at Yale. I study English literature and will write a poetry thesis. I also plan to freelance and <a href="https://tinalignment.substack.com/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">substack</a> when I'm not editing for campus magazines.
             </p>
             <p>
               Please reach out at tinany721 [at] gmail [dot] com or on Signal at tina.415. You can also follow my <a href="https://www.linkedin.com/in/tinaliyale/" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">LinkedIn</a> and <a href="https://x.com/tinalignment" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">X</a>, and while you’re here, learn even more <Link to="/more-about" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">about me.</Link>
