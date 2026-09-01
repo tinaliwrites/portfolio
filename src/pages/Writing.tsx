@@ -53,6 +53,20 @@ const Writing = () => {
                 <div className="group relative">
                   <h4 className="text-xl font-medium text-foreground">
                     <a
+                      href="https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod=author_content_page_1_pos_3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                    >
+                      OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns
+                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
+                  </h4>
+                </div>
+
+                {/* Story 4 */}
+                <div className="group relative">
+                  <h4 className="text-xl font-medium text-foreground">
+                    <a
                       href="https://www.wsj.com/tech/ai/forget-wall-street-elite-students-are-spending-their-summers-on-startup-dreams-e7191994?mod=author_content_page_1_pos_15"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -63,7 +77,21 @@ const Writing = () => {
                   </h4>
                 </div>
 
-                {/* Story 4 */}
+                {/* Story 5 */}
+                <div className="group relative">
+                  <h4 className="text-xl font-medium text-foreground">
+                    <a
+                      href="https://www.wsj.com/tech/ai/anthropic-veterans-startup-seeks-to-help-scientists-develop-their-own-ai-09e2f3e5?mod=author_content_page_1_pos_17"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                    >
+                      Anthropic Veterans’ Startup Seeks to Help Scientists Develop Their Own AI
+                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
+                  </h4>
+                </div>
+
+                {/* Story 6 */}
                 <div className="group relative">
                   <h4 className="text-xl font-medium text-foreground">
                     <a

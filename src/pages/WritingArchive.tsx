@@ -23,11 +23,25 @@ const WritingArchive = () => {
         link: "https://www.wsj.com/tech/ai/a-backlash-against-anthropic-is-brewing-in-silicon-valley-3b3ddc80?mod=author_content_page_1_pos_6"
       },
       {
+        headline: "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
+        subhead: "",
+        publication: "The Wall Street Journal",
+        date: "",
+        link: "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod=author_content_page_1_pos_3"
+      },
+      {
         headline: "Forget Wall Street. Elite Students Are Spending Their Summers on Startup Dreams.",
         subhead: "",
         publication: "The Wall Street Journal",
         date: "",
         link: "https://www.wsj.com/tech/ai/forget-wall-street-elite-students-are-spending-their-summers-on-startup-dreams-e7191994?mod=author_content_page_1_pos_15"
+      },
+      {
+        headline: "Anthropic Veterans’ Startup Seeks to Help Scientists Develop Their Own AI",
+        subhead: "",
+        publication: "The Wall Street Journal",
+        date: "",
+        link: "https://www.wsj.com/tech/ai/anthropic-veterans-startup-seeks-to-help-scientists-develop-their-own-ai-09e2f3e5?mod=author_content_page_1_pos_17"
       },
       {
         headline: "How New Haven Public Schools Is Adapting To AI",
