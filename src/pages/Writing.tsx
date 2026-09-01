@@ -20,77 +20,94 @@ const Writing = () => {
                 </svg>
               </div>
 
+              <div className="space-y-1">
+                <p className="text-foreground text-base italic">
+                  for The Wall Street Journal: (full recap of my summer in{" "}
+                  <a
+                    href="https://x.com/tinalignment/status/2088457083255710082?s=20"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary underline"
+                  >
+                    this Twitter thread
+                  </a>
+                  )
+                </p>
+
+                <div className="space-y-1">
+                  {/* Story 1 */}
+                  <div className="group relative">
+                    <h4 className="text-xl font-medium text-foreground">
+                      <a
+                        href="https://www.wsj.com/tech/ai/silicon-valley-loves-jargonand-hill-climbing-is-its-favorite-new-phrase-280eb224?mod=author_content_page_1_pos_1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      >
+                        Silicon Valley loves jargon—and ‘hill-climbing’ is its favorite new phrase
+                      </a>
+                    </h4>
+                  </div>
+
+                  {/* Story 2 */}
+                  <div className="group relative">
+                    <h4 className="text-xl font-medium text-foreground">
+                      <a
+                        href="https://www.wsj.com/tech/ai/a-backlash-against-anthropic-is-brewing-in-silicon-valley-3b3ddc80?mod=author_content_page_1_pos_6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      >
+                        A backlash against Anthropic is brewing in Silicon Valley
+                      </a>
+                    </h4>
+                  </div>
+
+                  {/* Story 3 */}
+                  <div className="group relative">
+                    <h4 className="text-xl font-medium text-foreground">
+                      <a
+                        href="https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod=author_content_page_1_pos_3"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      >
+                        OpenAI pauses some work on new AI model over cybersecurity concerns
+                      </a>
+                    </h4>
+                  </div>
+
+                  {/* Story 4 */}
+                  <div className="group relative">
+                    <h4 className="text-xl font-medium text-foreground">
+                      <a
+                        href="https://www.wsj.com/tech/ai/forget-wall-street-elite-students-are-spending-their-summers-on-startup-dreams-e7191994?mod=author_content_page_1_pos_15"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      >
+                        Forget Wall Street. Elite students are spending their summers on startup dreams
+                      </a>
+                    </h4>
+                  </div>
+
+                  {/* Story 5 */}
+                  <div className="group relative">
+                    <h4 className="text-xl font-medium text-foreground">
+                      <a
+                        href="https://www.wsj.com/tech/ai/anthropic-veterans-startup-seeks-to-help-scientists-develop-their-own-ai-09e2f3e5?mod=author_content_page_1_pos_17"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      >
+                        Anthropic veterans’ startup seeks to help scientists develop their own AI
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+
               <div className="space-y-4">
-                {/* Story 1 */}
-                <div className="group relative">
-                  <h4 className="text-xl font-medium text-foreground">
-                    <a
-                      href="https://www.wsj.com/tech/ai/silicon-valley-loves-jargonand-hill-climbing-is-its-favorite-new-phrase-280eb224?mod=author_content_page_1_pos_1"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
-                    >
-                      Silicon Valley Loves Jargon—and ‘Hill-Climbing’ Is Its Favorite New Phrase
-                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
-                  </h4>
-                </div>
-
-                {/* Story 2 */}
-                <div className="group relative">
-                  <h4 className="text-xl font-medium text-foreground">
-                    <a
-                      href="https://www.wsj.com/tech/ai/a-backlash-against-anthropic-is-brewing-in-silicon-valley-3b3ddc80?mod=author_content_page_1_pos_6"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
-                    >
-                      A Backlash Against Anthropic Is Brewing in Silicon Valley
-                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
-                  </h4>
-                </div>
-
-                {/* Story 3 */}
-                <div className="group relative">
-                  <h4 className="text-xl font-medium text-foreground">
-                    <a
-                      href="https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod=author_content_page_1_pos_3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
-                    >
-                      OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns
-                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
-                  </h4>
-                </div>
-
-                {/* Story 4 */}
-                <div className="group relative">
-                  <h4 className="text-xl font-medium text-foreground">
-                    <a
-                      href="https://www.wsj.com/tech/ai/forget-wall-street-elite-students-are-spending-their-summers-on-startup-dreams-e7191994?mod=author_content_page_1_pos_15"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
-                    >
-                      Forget Wall Street. Elite Students Are Spending Their Summers on Startup Dreams.
-                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
-                  </h4>
-                </div>
-
-                {/* Story 5 */}
-                <div className="group relative">
-                  <h4 className="text-xl font-medium text-foreground">
-                    <a
-                      href="https://www.wsj.com/tech/ai/anthropic-veterans-startup-seeks-to-help-scientists-develop-their-own-ai-09e2f3e5?mod=author_content_page_1_pos_17"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
-                    >
-                      Anthropic Veterans’ Startup Seeks to Help Scientists Develop Their Own AI
-                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
-                  </h4>
-                </div>
-
                 {/* Story 6 */}
                 <div className="group relative">
                   <h4 className="text-xl font-medium text-foreground">
@@ -98,25 +115,13 @@ const Writing = () => {
                       href="https://www.newhavenindependent.org/2026/02/02/the-most-important-tool-the-most-dangerous-tool-how-nhps-is-adapting-to-ai/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
                     >
                       How New Haven Public Schools Is Adapting To AI
                     </a> <span className="text-gray-500">—</span> <em>The New Haven Independent</em>
                   </h4>
                 </div>
               </div>
-
-              <p className="text-foreground mt-0.5 leading-relaxed text-base">
-                full recap of my summer reporting for WSJ in this{" "}
-                <a
-                  href="https://x.com/tinalignment/status/2088457083255710082?s=20"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary underline"
-                >
-                  Twitter thread
-                </a>
-              </p>
             </section>
           </FadeInSection>
 
@@ -140,12 +145,12 @@ const Writing = () => {
                       href="https://thenewjournalatyale.com/2025/02/the-long-ride-home/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
                     >
                       The Long Ride Home
                     </a> <span className="text-gray-500">—</span> <em>The New Journal</em>
                   </h4>
-                  <p className="text-foreground mt-0.5 leading-relaxed text-base">
+                  <p className="text-foreground mt-0 leading-relaxed text-base">
                     the fight for traffic safety in New Haven
                   </p>
                 </div>
@@ -157,12 +162,12 @@ const Writing = () => {
                       href="https://thenewjournalatyale.com/2025/09/unforced-error/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
                     >
                       Unforced Error
                     </a> — <em>The New Journal</em>
                   </h4>
-                  <p className="text-foreground mt-0.5 leading-relaxed text-base">
+                  <p className="text-foreground mt-0 leading-relaxed text-base">
                     on STEM researchers reconsidering academia due to 2025 funding cuts
                   </p>
                 </div>
@@ -174,7 +179,7 @@ const Writing = () => {
                       href="https://thefrisc.com/trump-snap-cuts-risk-business-at-this-historic-sf-farmers-market/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
                     >
                       Trump’s SNAP cuts threaten this historic SF Market
                     </a> <span className="text-gray-500">—</span> <em>The Frisc</em>
@@ -204,12 +209,12 @@ const Writing = () => {
                       href="https://yale-herald.com/2024/11/17/restaurant-days/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
                     >
                       Restaurant Days
                     </a> — <em>The Yale Herald</em>
                   </h4>
-                  <p className="text-foreground mt-0.5 leading-relaxed text-base">
+                  <p className="text-foreground mt-0 leading-relaxed text-base">
                     on automation, Chinese-American takeout, and my family’s business
                   </p>
                 </div>
@@ -221,12 +226,12 @@ const Writing = () => {
                       href="https://thenewjournalatyale.com/2024/09/independent-declarations/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
                     >
                       Independent Declarations
                     </a> <span className="text-gray-500">—</span> <em>The New Journal</em>
                   </h4>
-                  <p className="text-foreground mt-0.5 leading-relaxed text-base">
+                  <p className="text-foreground mt-0 leading-relaxed text-base">
                     meet the stars of the <em>New Haven Independent</em>’s comments section
                   </p>
                 </div>
@@ -238,12 +243,12 @@ const Writing = () => {
                       href="https://thenewjournalatyale.com/2024/02/striking-a-chord/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
                     >
                       Striking a Chord
                     </a> — <em>The New Journal</em>
                   </h4>
-                  <p className="text-foreground mt-0.5 leading-relaxed text-base">
+                  <p className="text-foreground mt-0 leading-relaxed text-base">
                     keeping tempo with the Yale student band scene
                   </p>
                 </div>
@@ -271,12 +276,12 @@ const Writing = () => {
                       href="https://www.brinkatyale.com/issue-sixteen-1/live-the-questions-now"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                      className="no-underline hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
                     >
                       Live The Questions Now
                     </a> <span className="text-gray-500">—</span> <em>BRINK</em>
                   </h4>
-                  <p className="text-foreground mt-0.5 leading-relaxed text-base">
+                  <p className="text-foreground mt-0 leading-relaxed text-base">
                     on Arthur Sze, poetry translation, and AI
                   </p>
                 </div>

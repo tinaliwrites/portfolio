@@ -9,35 +9,35 @@ const WritingArchive = () => {
     title: "AI REPORTING",
     stories: [
       {
-        headline: "Silicon Valley Loves Jargon—and ‘Hill-Climbing’ Is Its Favorite New Phrase",
+        headline: "Silicon Valley loves jargon—and ‘hill-climbing’ is its favorite new phrase",
         subhead: "",
         publication: "The Wall Street Journal",
         date: "",
         link: "https://www.wsj.com/tech/ai/silicon-valley-loves-jargonand-hill-climbing-is-its-favorite-new-phrase-280eb224?mod=author_content_page_1_pos_1"
       },
       {
-        headline: "A Backlash Against Anthropic Is Brewing in Silicon Valley",
+        headline: "A backlash against Anthropic is brewing in Silicon Valley",
         subhead: "",
         publication: "The Wall Street Journal",
         date: "",
         link: "https://www.wsj.com/tech/ai/a-backlash-against-anthropic-is-brewing-in-silicon-valley-3b3ddc80?mod=author_content_page_1_pos_6"
       },
       {
-        headline: "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
+        headline: "OpenAI pauses some work on new AI model over cybersecurity concerns",
         subhead: "",
         publication: "The Wall Street Journal",
         date: "",
         link: "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod=author_content_page_1_pos_3"
       },
       {
-        headline: "Forget Wall Street. Elite Students Are Spending Their Summers on Startup Dreams.",
+        headline: "Forget Wall Street. Elite students are spending their summers on startup dreams",
         subhead: "",
         publication: "The Wall Street Journal",
         date: "",
         link: "https://www.wsj.com/tech/ai/forget-wall-street-elite-students-are-spending-their-summers-on-startup-dreams-e7191994?mod=author_content_page_1_pos_15"
       },
       {
-        headline: "Anthropic Veterans’ Startup Seeks to Help Scientists Develop Their Own AI",
+        headline: "Anthropic veterans’ startup seeks to help scientists develop their own AI",
         subhead: "",
         publication: "The Wall Street Journal",
         date: "",

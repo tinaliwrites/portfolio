@@ -4,17 +4,25 @@ import { useState, useEffect } from "react";
 const Header = () => {
   const location = useLocation();
   const [time, setTime] = useState("");
+  const [tzAbbr, setTzAbbr] = useState("");
 
   useEffect(() => {
     const updateTime = () => {
       const now = new Date();
       const timeString = now.toLocaleTimeString("en-US", {
-        timeZone: "America/Los_Angeles",
+        timeZone: "America/New_York",
         hour: "numeric",
         minute: "2-digit",
         hour12: true,
       });
       setTime(timeString);
+
+      const parts = new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/New_York",
+        timeZoneName: "short",
+      }).formatToParts(now);
+      const zone = parts.find((part) => part.type === "timeZoneName")?.value ?? "";
+      setTzAbbr(zone);
     };
 
     updateTime();
@@ -25,8 +33,8 @@ const Header = () => {
   return (
     <header className="bg-background relative">
       <div className="absolute top-4 right-6 text-xs font-serif text-muted-foreground text-right hidden md:block">
-        <div>San Francisco, CA</div>
-        <div>{time} PST</div>
+        <div>New Haven, CT</div>
+        <div>{time} {tzAbbr}</div>
       </div>
       <div className="container mx-auto max-w-4xl px-6 py-8">
         <h1 className="text-center text-4xl font-bold mb-6 text-foreground">
