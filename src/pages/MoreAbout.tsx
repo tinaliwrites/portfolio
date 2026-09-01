@@ -9,6 +9,12 @@ const MoreAbout = () => {
             <main className="container mx-auto max-w-3xl px-6 py-16 font-serif">
                 <div className="space-y-10 text-lg leading-snug text-foreground/90">
                     <FadeInSection>
+                        <p className="text-sm text-muted-foreground italic">
+                            last updated spring of 2026
+                        </p>
+                    </FadeInSection>
+
+                    <FadeInSection>
                         <p>
                             I was born in Brooklyn, New York and I spent my early childhood in Fuzhou, China. But I mainly grew up in Norfolk, Virginia (the largest naval base in the world!) and I now spend my time in between New Haven, Norfolk, and the DMV area. I somehow always find an excuse, though, to fly to San Francisco a couple times a year. I enjoy hiking, seeing plays, <a href="https://docs.google.com/document/d/1f8gZz6AHrEIfqzW5IgA-XmFMjM2LK4suNterig7njz4/edit?tab=t.0" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">reading</a>, <a href="https://boxd.it/9Yq4Z" target="_blank" rel="noopener noreferrer" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">watching movies</a>, and <Link to="/poetry" className="underline decoration-primary/30 hover:decoration-primary transition-colors underline-offset-4">writing poetry</Link>.
                         </p>

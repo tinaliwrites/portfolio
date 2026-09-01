@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import { Link } from "react-router-dom";
 import FadeInSection from "@/components/FadeInSection";
 
 const Writing = () => {
@@ -8,8 +7,90 @@ const Writing = () => {
       <Header />
       <main className="container mx-auto max-w-3xl px-6 py-16 font-serif">
         <div className="space-y-10">
-          
 
+          {/* AI Reporting Section */}
+          <FadeInSection>
+            <section className="space-y-4">
+              <div className="relative inline-block mb-1">
+                <h3 className="text-xl font-bold uppercase relative z-10">
+                  AI REPORTING
+                </h3>
+                <svg className="absolute w-[110%] h-6 -bottom-1 -left-[5%] text-primary/30 -z-10" viewBox="0 0 100 20" preserveAspectRatio="none">
+                  <path d="M0 10 Q 50 20 100 10" stroke="currentColor" strokeWidth="8" fill="none" />
+                </svg>
+              </div>
+
+              <div className="space-y-4">
+                {/* Story 1 */}
+                <div className="group relative">
+                  <h4 className="text-xl font-medium text-foreground">
+                    <a
+                      href="https://www.wsj.com/tech/ai/silicon-valley-loves-jargonand-hill-climbing-is-its-favorite-new-phrase-280eb224?mod=author_content_page_1_pos_1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                    >
+                      Silicon Valley Loves Jargon—and ‘Hill-Climbing’ Is Its Favorite New Phrase
+                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
+                  </h4>
+                </div>
+
+                {/* Story 2 */}
+                <div className="group relative">
+                  <h4 className="text-xl font-medium text-foreground">
+                    <a
+                      href="https://www.wsj.com/tech/ai/a-backlash-against-anthropic-is-brewing-in-silicon-valley-3b3ddc80?mod=author_content_page_1_pos_6"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                    >
+                      A Backlash Against Anthropic Is Brewing in Silicon Valley
+                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
+                  </h4>
+                </div>
+
+                {/* Story 3 */}
+                <div className="group relative">
+                  <h4 className="text-xl font-medium text-foreground">
+                    <a
+                      href="https://www.wsj.com/tech/ai/forget-wall-street-elite-students-are-spending-their-summers-on-startup-dreams-e7191994?mod=author_content_page_1_pos_15"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                    >
+                      Forget Wall Street. Elite Students Are Spending Their Summers on Startup Dreams.
+                    </a> <span className="text-gray-500">—</span> <em>The Wall Street Journal</em>
+                  </h4>
+                </div>
+
+                {/* Story 4 */}
+                <div className="group relative">
+                  <h4 className="text-xl font-medium text-foreground">
+                    <a
+                      href="https://www.newhavenindependent.org/2026/02/02/the-most-important-tool-the-most-dangerous-tool-how-nhps-is-adapting-to-ai/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
+                    >
+                      How New Haven Public Schools Is Adapting To AI
+                    </a> <span className="text-gray-500">—</span> <em>The New Haven Independent</em>
+                  </h4>
+                </div>
+              </div>
+
+              <p className="text-foreground mt-0.5 leading-relaxed text-base">
+                full recap of my summer reporting for WSJ in this{" "}
+                <a
+                  href="https://x.com/tinalignment/status/2088457083255710082?s=20"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary underline"
+                >
+                  Twitter thread
+                </a>
+              </p>
+            </section>
+          </FadeInSection>
 
           {/* Features Section */}
           <FadeInSection>
@@ -59,20 +140,6 @@ const Writing = () => {
                 </div>
 
                 {/* Story 3 */}
-                <div className="group relative">
-                  <h4 className="text-xl font-medium text-foreground">
-                    <a
-                      href="https://www.newhavenindependent.org/2026/02/02/the-most-important-tool-the-most-dangerous-tool-how-nhps-is-adapting-to-ai/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-primary transition-colors decoration-primary/20 hover:decoration-primary"
-                    >
-                      How New Haven public schools are adapting to AI
-                    </a> <span className="text-gray-500">—</span> <em>The New Haven Independent</em>
-                  </h4>
-                </div>
-
-                {/* Story 4 */}
                 <div className="group relative">
                   <h4 className="text-xl font-medium text-foreground">
                     <a
@@ -217,18 +284,6 @@ const Writing = () => {
               >
                 Wall Street Journal
               </a> - technology
-            </div>
-          </FadeInSection>
-
-          {/* Legacy Footer Section */}
-          <FadeInSection>
-            <div className="pt-4 flex justify-center">
-              <Link
-                to="/writing-archive"
-                className="text-muted-foreground hover:text-primary transition-colors font-serif italic text-base decoration-primary/30 hover:underline underline-offset-4"
-              >
-                legacy
-              </Link>
             </div>
           </FadeInSection>
 

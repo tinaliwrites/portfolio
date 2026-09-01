@@ -1,47 +1,48 @@
 import Header from "@/components/Header";
 import FadeInSection from "@/components/FadeInSection";
-
-const StoryCard = ({ story, featured, index, className }: { story: any, featured?: boolean, index?: number, className?: string }) => (
-  <div className={`group relative ${featured ? "md:col-span-2" : "md:col-span-1"} ${className || ""}`}>
-    {/* Hand-drawn border effect */}
-    <div className={`absolute inset-0 border-2 border-primary/20 transition-colors duration-300 group-hover:border-primary/40 pointer-events-none
-      ${(index || 0) % 2 === 0
-        ? "rounded-[255px_15px_225px_15px/15px_225px_15px_255px]"
-        : "rounded-[15px_225px_15px_255px/255px_15px_225px_15px]"
-      }
-    `}></div>
-
-    <a href={story.link || "#"} target="_blank" rel="noopener noreferrer" className="block p-2 h-full no-underline">
-      <div className={`flex flex-col h-full ${featured ? "lg:flex-row lg:gap-0 lg:items-center" : "gap-0 justify-start"}`}>
-        {story.image && (
-          <div className={`shrink-0 overflow-hidden rounded-sm ${featured ? "w-full lg:w-1/2 aspect-video lg:aspect-auto lg:h-64" : "w-full aspect-video"}`}>
-            <div className="h-full w-full p-2">
-              <img
-                src={`${import.meta.env.BASE_URL}${story.image.startsWith('/') ? story.image.slice(1) : story.image}`}
-                alt={story.headline}
-                className="h-full w-full object-cover rounded-md brightness-75 group-hover:brightness-100 group-hover:scale-105 transition-all duration-500"
-              />
-            </div>
-          </div>
-        )}
-        <div className={`flex flex-col justify-center p-2 ${featured && story.image ? "lg:w-1/2 lg:mt-0" : "w-full"}`}>
-          <div className="text-[10px] font-medium text-primary/80 uppercase tracking-wider mb-2">
-            {story.publication} • {story.date}
-          </div>
-          <h4 className={`font-serif font-medium text-foreground group-hover:text-primary transition-colors mb-2 ${featured ? "text-2xl" : "text-lg"}`}>
-            {story.headline}
-          </h4>
-          <p className="text-muted-foreground mb-4 leading-tight">
-            {story.subhead}
-          </p>
-        </div>
-      </div>
-    </a>
-  </div>
-);
+import StoryCard from "@/components/StoryCard";
 
 const WritingArchive = () => {
   const beats = [
+  // AI REPORTING section
+  {
+    title: "AI REPORTING",
+    stories: [
+      {
+        headline: "Silicon Valley Loves Jargon—and ‘Hill-Climbing’ Is Its Favorite New Phrase",
+        subhead: "",
+        publication: "The Wall Street Journal",
+        date: "",
+        link: "https://www.wsj.com/tech/ai/silicon-valley-loves-jargonand-hill-climbing-is-its-favorite-new-phrase-280eb224?mod=author_content_page_1_pos_1"
+      },
+      {
+        headline: "A Backlash Against Anthropic Is Brewing in Silicon Valley",
+        subhead: "",
+        publication: "The Wall Street Journal",
+        date: "",
+        link: "https://www.wsj.com/tech/ai/a-backlash-against-anthropic-is-brewing-in-silicon-valley-3b3ddc80?mod=author_content_page_1_pos_6"
+      },
+      {
+        headline: "Forget Wall Street. Elite Students Are Spending Their Summers on Startup Dreams.",
+        subhead: "",
+        publication: "The Wall Street Journal",
+        date: "",
+        link: "https://www.wsj.com/tech/ai/forget-wall-street-elite-students-are-spending-their-summers-on-startup-dreams-e7191994?mod=author_content_page_1_pos_15"
+      },
+      {
+        headline: "How New Haven Public Schools Is Adapting To AI",
+        subhead: "",
+        publication: "The New Haven Independent",
+        date: "",
+        link: "https://www.newhavenindependent.org/2026/02/02/the-most-important-tool-the-most-dangerous-tool-how-nhps-is-adapting-to-ai/"
+      }
+    ],
+    footerContent: (
+      <div className="text-base font-serif" style={{ fontFamily: 'serif', fontStyle: 'normal' }}>
+        full recap of my summer reporting for WSJ in this <a href="https://x.com/tinalignment/status/2088457083255710082?s=20" target="_blank" rel="noopener noreferrer" className="underline">Twitter thread</a>
+      </div>
+    )
+  },
     {
       title: "Business",
 
@@ -291,9 +292,7 @@ const WritingArchive = () => {
                 <h3 className="text-5xl font-serif italic relative z-10">
                   Tech
                 </h3>
-                <svg className="absolute w-[110%] h-8 -bottom-2 -left-[5%] text-primary/30 -z-10" viewBox="0 0 100 20" preserveAspectRatio="none">
-                  <path d="M0 10 Q 50 20 100 10" stroke="currentColor" strokeWidth="12" fill="none" />
-                </svg>
+
               </div>
 
               <div className="space-y-6">
@@ -309,40 +308,31 @@ const WritingArchive = () => {
                   </a>.
                 </p>
 
-                <div className="group relative p-6 bg-muted/30 text-center">
-                  {/* Hand-drawn border effect */}
-                  <div className="absolute inset-0 border-2 border-primary/40 rounded-[255px_15px_225px_15px/15px_225px_15px_255px] pointer-events-none group-hover:border-primary transition-colors duration-300"></div>
-                  
-                  <p className="relative z-10 text-xl md:text-2xl font-serif text-foreground">
-                    Read{" "}
-                    <a
-                      href="https://www.newhavenindependent.org/2026/02/02/the-most-important-tool-the-most-dangerous-tool-how-nhps-is-adapting-to-ai/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-foreground hover:text-primary decoration-primary/50 underline underline-offset-4 transition-colors font-medium"
-                    >
-                      my feature
-                    </a>{" "}
-                    on how New Haven public schools are grappling with AI!
-                  </p>
-                </div>
               </div>
             </section>
           </FadeInSection>
-          {beats.map((beat, beatIndex) => (
+          {beats.map((beat) => (
             <FadeInSection key={beat.title}>
               <section>
                 <div className="relative inline-block mb-8">
                   <h3 className="text-5xl font-serif italic relative z-10">
                     {beat.title}
                   </h3>
-                  <svg className="absolute w-[110%] h-8 -bottom-2 -left-[5%] text-primary/30 -z-10" viewBox="0 0 100 20" preserveAspectRatio="none">
-                    <path d="M0 10 Q 50 20 100 10" stroke="currentColor" strokeWidth="12" fill="none" />
-                  </svg>
+  
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-1">
-                  {beatIndex === 0 && (
+                  {beat.title === "AI REPORTING" && (
+                    <>
+                      {beat.stories.map((story: any, i: number) => (
+                        <StoryCard key={story.headline} story={story} index={i} />
+                      ))}
+                      <div className="md:col-span-3">
+                        {beat.footerContent}
+                      </div>
+                    </>
+                  )}
+                  {beat.title === "Business" && (
                     <>
                       {beat.introContent}
                       <StoryCard story={beat.stories[0]} featured={true} index={0} />
@@ -351,7 +341,7 @@ const WritingArchive = () => {
                       {beat.footerContent}
                     </>
                   )}
-                  {beatIndex === 1 && (
+                  {beat.title === "Transportation" && (
                     <>
                       {/* Grid 2: Infrastructure */}
                       <div className="md:col-span-3">
@@ -374,7 +364,7 @@ const WritingArchive = () => {
                       <StoryCard story={beat.stories[2]} index={2} />
                     </>
                   )}
-                  {beatIndex === 2 && (
+                  {beat.title === "Policy" && (
                     <>
                       <div className="md:col-start-2 md:col-span-2">
                         {beat.introContent}
@@ -388,7 +378,7 @@ const WritingArchive = () => {
                       </div>
                     </>
                   )}
-                  {beatIndex === 3 && (
+                  {beat.title === "Culture" && (
                     <>
                       <StoryCard story={beat.stories[0]} index={0} />
                       <StoryCard story={beat.stories[1]} index={1} />
